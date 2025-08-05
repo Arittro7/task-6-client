@@ -5,7 +5,7 @@ import { io } from 'socket.io-client';
 import { v4 as uuidv4 } from 'uuid';
 import Canvas from '../components/Canvas';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://task-6-server.vercel.app';
 
 function PresentationPage() {
   const { id: presentationId } = useParams();
